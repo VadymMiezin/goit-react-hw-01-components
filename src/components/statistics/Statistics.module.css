@@ -1,0 +1,47 @@
+.title {
+  margin: 0;
+  padding: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.statList {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-shadow: 0 0 3px #000;
+}
+
+.item:first-child {
+  border-radius: 0 0 0 5px;
+}
+
+.item:last-child {
+  border-radius: 0 0 5px;
+}
+
+.label {
+  padding-top: 20px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.percentage {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
